@@ -1,0 +1,17 @@
+def calcular_iva_descuento():
+    producto = float(input("Ingrese el precio del producto: "))
+
+    # Calcular el IVA (19%)
+    iva = producto * 0.19
+
+    # Aplicar descuento del 10%
+    descuento = producto * 0.10
+
+    # Calcular el precio final con IVA y descuento
+    precio_final = producto + iva - descuento
+
+    print("Valor del IVA (19%): ", iva)
+    print("Descuento (10%): ", descuento)
+    print("Precio final: ", precio_final)
+
+calcular_iva_descuento()
